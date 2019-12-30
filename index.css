@@ -58,10 +58,10 @@ a{
   color: #333;
   text-decoration: none;
 }
-.container{
+/*.container{
   position: relative;
   text-align: center;
-}
+}*/
 .clr{
   clear: both;
 }
@@ -96,7 +96,11 @@ a{
   text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
     padding: 0px 0px 5px 0px;
 }
- header h1 span{
+
+#home_header,#casas_header,#galeria_header,#contacto_header{
+  cursor: pointer;
+}
+/* header h1 span{
 
 }
  header h2, p.info{
@@ -104,7 +108,7 @@ a{
   font-style: italic;
   color: #f8f8f8;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
-}
+}*/
 
 .slideshow {
     /*position: fixed;*/
@@ -508,10 +512,15 @@ h3{
   height: 100%
 }
 
+#section_1 .image_col{
+  max-height: 90vh;
+  overflow: hidden;
+}
+
 #section_1 .text_container{
     max-width: 650px;
     padding: 30px 50px;
-    font-size: 1.3rem;
+    font-size: 27px;
     margin: 20px 0px;
 }
 
@@ -581,23 +590,108 @@ h3{
 
 
 #section_4{
-  height: 100vh;
-  background-color: #EFECEA;
+  background-color: #FFFFFF;
 }
 
-#section_4 img {
-  width: 410px;
-  margin: 10px 50px;
+#section_4 .header_nav{
+  text-align: center;
+  padding: 20px 0px;
+  background-color: #EFECEA;
+  color: #53585A;
+  font-weight: 800;
+  font-size: 60px;
+  letter-spacing: 1.7px;
 }
-#section_4 .text_container{
-    max-width: 650px;
+
+#section_4 .container_tab .tipos{
+  display: contents;
+  padding: 110px 50px;
 }
+
+.container_tab .flex{
+  display: flex;
+}
+
+#section_4 .plano_txt{
+  width: 40%;
+  padding: 90px 40px;
+  font-size: 27px;
+}
+
+#section_4 .plano_img{
+  width: 60%;
+}
+
+#section_4 .plano_img img{
+  width: 95%;
+  margin-top: 90px;
+}
+
+#section_4 a.nav-link.active {
+    border: none;
+    border-bottom: 5px solid #CC9900 !important;
+    display: inline-block;
+    text-shadow: 2px 2px #EFECFA, 2px -2px #EFECFA, -2px 2px #EFECFA, -2px -2px #EFECFA;
+    background-color: #EFECEA;
+}
+
+#section_4 a.nav-link:hover {
+    border-bottom: none;
+    font-weight: 800;
+}
+
+#section_4 .nav-tabs{
+  border: none;
+  padding: 10px 0;
+  background-color: #EFECEA;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#tipo1_nav, #tipo2_nav{
+  width: 50% !important;
+}
+
+#section_4 .nav-item{
+  width: 33.3%;
+  line-height: 0.85;
+}
+
+#section_4 .nav-item{
+  text-align: center;  
+}
+
+/*#piso1_p1{
+  display: flex;
+}*/
+
+/*#section_4 .nav-item:first-child{
+  text-align: right;  
+}
+
+#section_4 .nav-item:last-child{
+  text-align: left;  
+}*/
+
+
+#section_4 .direccion{
+  width: 50%;
+  word-break: break-word;
+  margin: 20px 0;
+}
+
+#section_4 .direccion_add{
+  width: 55%;
+  word-break: break-word;
+  margin: 20px 0;
+}
+
 
 /*////SECTION_5*/
 
 
 #section_5{
-  height: 50vh;
+  /*height: 50vh;*/
   padding: 10vh 10px;
 }
 
@@ -611,6 +705,10 @@ h3{
 /*#section_5 #titulo::after{
   border-bottom: 5px solid red;
 }*/
+.galeria_container{
+  width: 92%;
+  margin: auto;
+}
 
 
 #section_5 .carousel-inner .carousel-item.active,
@@ -652,98 +750,6 @@ img.d-block.col-3.img-fluid {
     right: -221px;
 }
 
-/*////SECTION_6*/
-
-
-#section_6{
-  background-color: #FFFFFF;
-}
-
-#section_6 .header_nav{
-  text-align: center;
-  padding: 20px 0px;
-  background-color: #EFECEA;
-  color: #53585A;
-  font-weight: 800;
-  font-size: 40px;
-  letter-spacing: 1.7px;
-}
-
-#section_6 .container_tab .tipos{
-  display: contents;
-  padding: 110px 50px;
-}
-
-.container_tab .flex{
-  display: flex;
-}
-
-#section_6 .plano_txt{
-  width: 40%;
-  padding: 20px 30px;
-}
-
-#section_6 .plano_img{
-  width: 60%;
-}
-
-#section_6 .plano_img img{
-  width: 500px;
-  margin-top: 90px;
-}
-
-#section_6 a.nav-link.active {
-    border: none;
-    border-bottom: 5px solid #CC9900 !important;
-    display: inline-block;
-    text-shadow: 2px 2px #EFECFA, 2px -2px #EFECFA, -2px 2px #EFECFA, -2px -2px #EFECFA;
-    background-color: #EFECEA;
-}
-
-#section_6 a.nav-link:hover {
-    border-bottom: none;
-    font-weight: 800;
-}
-
-#section_6 .nav-tabs{
-  border: none;
-  padding: 10px 0;
-  background-color: #EFECEA;
-}
-
-#section_6 .nav-item{
-  width: 33.3%;
-  line-height: 0.85;
-}
-
-#section_6 .nav-item{
-  text-align: center;  
-}
-
-/*#piso1_p1{
-  display: flex;
-}*/
-
-/*#section_6 .nav-item:first-child{
-  text-align: right;  
-}
-
-#section_6 .nav-item:last-child{
-  text-align: left;  
-}*/
-
-
-#section_6 .direccion{
-  width: 50%;
-  word-break: break-word;
-  margin: 20px 0;
-}
-
-#section_6 .direccion_add{
-  width: 55%;
-  word-break: break-word;
-  margin: 20px 0;
-}
 
 /*////SECTION_7*/
 
@@ -832,4 +838,89 @@ img.d-block.col-3.img-fluid {
 
 input{
   border: none;
+}
+
+/*MODAL CAROUSEL*/
+
+#section_5 .img-fluid {
+  transition: all 0.5s ease;
+  cursor: pointer;
+  height: 430px;
+}
+
+#section_5 .img-fluid:hover {
+  /*opacity: 0.9;*/
+  transform: scale(1.2);
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+#carousel_modal .carousel-inner{
+  background-color: #000;
+}
+
+#carousel_modal .carousel-control-prev {
+    left: -210px;
+}
+
+#carousel_modal .carousel-item img{
+  margin: auto;
+  height: 80vh;
+}
+
+/* Add Animation */
+.modal-content {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
 }
