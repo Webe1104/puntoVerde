@@ -54,36 +54,53 @@ $('#section_5 .carousel .carousel-item').each(function(){
 var modal = document.getElementById("modal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-var img1 = document.getElementById("image1");
-var img2 = document.getElementById("image2");
-var img3 = document.getElementById("image3");
-var img4 = document.getElementById("image4");
-var img5 = document.getElementById("image5");
-var img6 = document.getElementById("image6");
-img1.onclick = function(){
-  modal.style.display = "block";
-  $('#carousel_modal').carousel(0);
-}
-img2.onclick = function(){
-  modal.style.display = "block";
-  $('#carousel_modal').carousel(1);
-}
-img3.onclick = function(){
-  modal.style.display = "block";
-  $('#carousel_modal').carousel(2);
-}
-img4.onclick = function(){
-  modal.style.display = "block";
-  $('#carousel_modal').carousel(3);
-}
-img5.onclick = function(){
-  modal.style.display = "block";
-  $('#carousel_modal').carousel(4);
-}
-img6.onclick = function(){
-  modal.style.display = "block";
-  $('#carousel_modal').carousel(5);
-}
+var img1 = document.getElementsByClassName('image1');
+  for(var i = 0; i < img1.length; i++) {
+      img1[i].onclick = function() {
+          modal.style.display = "block";
+          $('#carousel_modal').carousel(0);
+      }
+  }
+
+var img2 = document.getElementsByClassName("image2");
+  for(var i = 0; i < img2.length; i++) {
+      img2[i].onclick = function() {
+          modal.style.display = "block";
+          $('#carousel_modal').carousel(1);
+      }
+  }
+
+var img3 = document.getElementsByClassName("image3");
+  for(var i = 0; i < img3.length; i++) {
+      img3[i].onclick = function() {
+          modal.style.display = "block";
+          $('#carousel_modal').carousel(2);
+      }
+  }
+
+var img4 = document.getElementsByClassName("image4");
+  for(var i = 0; i < img4.length; i++) {
+      img4[i].onclick = function() {
+          modal.style.display = "block";
+          $('#carousel_modal').carousel(3);
+      }
+  }
+
+var img5 = document.getElementsByClassName("image5");
+  for(var i = 0; i < img5.length; i++) {
+      img5[i].onclick = function() {
+          modal.style.display = "block";
+          $('#carousel_modal').carousel(4);
+      }
+  }
+
+var img6 = document.getElementsByClassName("image6");
+  for(var i = 0; i < img6.length; i++) {
+      img6[i].onclick = function() {
+          modal.style.display = "block";
+          $('#carousel_modal').carousel(5);
+      }
+  }
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];

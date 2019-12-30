@@ -112,7 +112,7 @@ a{
 
 .slideshow {
     /*position: fixed;*/
-    /*height: 100%;*/
+    height: 100%;
     /*top: 0px;
     left: 0px;*/
     z-index: 0;
@@ -124,10 +124,10 @@ a{
     overflow: hidden;
 }
 .slideshow:after {
-  /*position: fixed;
+  position: fixed;
   height: 100%;
   top: 0px;
-  left: 0px;*/
+  left: 0px;
   position: absolute;
   /* height: 100%; */
   top: 220px;
