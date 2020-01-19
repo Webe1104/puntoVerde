@@ -13,32 +13,38 @@
     </head>
     <body>
         <header>
-            <div class="container">
-                <div class="row">
-                    <div class="col-10">
-                        <div class="row">
-                            <div class="col-3 header_text" id="home_header">
+            <div class="">
+                <div class="row justify-content-center" >
+                    <div class="col-9">
+                        <div class="row justify-content-center">
+                            <div class="col-2 header_text" id="home_header">
                               Inicio
                             </div>
-                            <div class="col-3 header_text" id="casas_header">
+                            <div class="col-2 header_text" id="casas_header">
                               Casas 
                             </div>
-                            <div class="col-3 header_text" id="galeria_header">
+                            <div class="col-2 header_text" id="galeria_header">
                               Galería
                             </div>
-                            <div class="col-3 header_text" id="contacto_header">
+                            <div class="col-2 header_text" id="contacto_header">
                               Contacto
                             </div>
                         </div>
                     </div>
                     <div class="col-2 calendarContainer">
-                        <img class="icon" src="images/icons/calendar.svg">
-                        <div class="phone">(55)80269704</div>
+                        <div class="row justify-content-end">
+                            <div class="col-4">
+                                <img class="icon" src="images/icons/calendar.svg">
+                            </div>
+                            <div class="col-4">
+                                <div class="phone">(55)80269704</div>
+                            </div>
+                        </div>
                     </div>
                   </div>
             </div>
         </header>
-        <div class="slide_container">
+        <div class="slider_container">
             <ul class="slideshow">
               <li><span>Image 01</span><div><h3>A little something something</h3></div></li>
               <li><span>Image 02</span></li>
@@ -47,16 +53,16 @@
               <li><span>Image 05</span></li>
               <li><span>Image 06</span></li>
             </ul>
-            <div class="slide_cover">
+            <div class="slider_cover">
             </div>
         </div>
         <div id="section_1">
-            <div class="row align-items-center">
-                <div class="col-6 image_col">
-                    <img src="images/_MG_3791.jpg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-5 image_col">
+                    <img src="images/_MG_3702.jpg">
                 </div>
-                <div class="col text_container">
-                    <div class="container">
+                <div class="col-4 text_container">
+                    <div class="">
                         <div class="title">
                             <p>
                                 Punto Verde
@@ -153,7 +159,7 @@
                     </div>
                 </div>
                 <div class="col-sm">
-                    <img class="icon" src="images/icons/infonavit.png">
+                    <img class="icon" src="images/icons/contador.svg">
                     <div class="icon_text">INFONAVIT</div>
                     <div class="text">
                         Usa tu crédito INFONAVIT en
