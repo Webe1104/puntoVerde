@@ -33,7 +33,7 @@
                     </div>
                     <div class="col-2 calendarContainer">
                         <div class="row justify-content-end">
-                            <div class="col-4">
+                            <div id="calendar" class="col-4 calendar">
                                 <img class="icon" src="images/icons/calendar.svg">
                             </div>
                             <div class="col-4">
@@ -209,27 +209,30 @@
                                 <div class="row justify-content-center">
                                     <div class="col-3 plano_txt text_container">
                                         <p>
-                                            PRIMER PISO
+                                            PRIMER PISO   M2 : 52.00
                                         </p>
-                                        <div class="icons_container">
+                                        <div id="t1_p1_cocina" class="icons_container">
                                             <img class="icon" src="images/icons/cocina.svg">
                                             <div class="icon_text">COCINA</div>
                                         </div>
-                                        <div class="icons_container">
+                                        <div id="t1_p1_sala" class="icons_container">
                                             <img class="icon" src="images/icons/sala.svg">
                                             <div class="icon_text">SALA</div>
                                         </div>
-                                        <div class="icons_container">
+                                        <div id="t1_p1_comedor" class="icons_container">
                                             <img class="icon" src="images/icons/silla.svg">
                                             <div class="icon_text">COMEDOR</div>
                                         </div>
-                                        <div class="icons_container">
+                                        <div id="t1_p1_banio" class="icons_container">
                                             <img class="icon" src="images/icons/inodoro.svg">
-                                            <div class="icon_text">1</div>
+                                            <div class="icon_text">BAÑO</div>
                                         </div>
                                     </div>
                                     <div class="col-4 plano_img">
-                                        <img src="images/piso1_p1.png">
+                                        <img id="t1_p1_plano_cocina" src="images/planos/t1_p1_cocina.png">
+                                        <img id="t1_p1_plano_sala" src="images/planos/t1_p1_sala.png">
+                                        <img id="t1_p1_plano_banio" src="images/planos/t1_p1_banio.png">
+                                        <img id="t1_p1_plano_comedor" src="images/planos/t1_p1_comedor.png">
                                     </div>
                                 </div>
                             </div>
@@ -240,21 +243,23 @@
                                         <p>
                                             SEGUNDO PISO
                                         </p>
-                                        <div class="icons_container">
+                                        <div id="t1_p2_recamara" class="icons_container">
                                             <img class="icon" src="images/icons/cama.svg">
-                                            <div class="icon_text">2</div>
+                                            <div class="icon_text">RECAMARA</div>
                                         </div>
-                                        <div class="icons_container">
-                                            <img class="icon" src="images/icons/lavadora.svg">
-                                            <div class="icon_text">LAVADO</div>
+                                        <div id="t1_p2_lavado" class="icons_container">
+                                            <img class="icon" src="images/icons/terraza.svg">
+                                            <div class="icon_text">TERRAZA</div>
                                         </div>
-                                        <div class="icons_container">
+                                        <div id="t1_p2_banio" class="icons_container">
                                             <img class="icon" src="images/icons/inodoro.svg">
-                                            <div class="icon_text">1</div>
+                                            <div class="icon_text">BAÑO</div>
                                         </div>
                                     </div>
                                     <div class="col-4 plano_img ">
-                                        <img src="images/piso2_p1.png">
+                                        <img id="t1_p2_plano_recamara" src="images/planos/t1_p2_recamara.png">
+                                        <img id="t1_p2_plano_lavado" src="images/planos/t1_p2_terraza.png">
+                                        <img id="t1_p2_plano_banio" src="images/planos/t1_p2_banio.png">
                                     </div>
                                 </div>
                             </div>
@@ -265,22 +270,24 @@
                                         <p>
                                             TERCER PISO
                                         </p>
-                                        <div class="icons_container">
-                                            <img class="icon" src="images/icons/terraza.svg">
-                                            <div class="icon_text">TERRAZA</div>
+                                        <div id="t1_p3_recamara" class="icons_container">
+                                            <img class="icon" src="images/icons/cama.svg">
+                                            <div class="icon_text">RECAMARA</div>
                                         </div>
-                                        <div class="icons_container">
+                                        <div id="t1_p3_lavado" class="icons_container">
                                             <img class="icon" src="images/icons/lavadora.svg">
-                                            <div class="icon_text">ESTUDIO</div>
+                                            <div class="icon_text">LAVADO</div>
                                         </div>
-                                        <div class="icons_container">
-                                            <img class="icon" src="images/icons/sala.svg">
-                                            <div class="icon_text">1</div>
+                                        <div id="t1_p3_banio" class="icons_container">
+                                            <img class="icon" src="images/icons/inodoro.svg">
+                                            <div class="icon_text">BAÑO</div>
                                         </div>
                                     </div>
                                     <div class="col-4 plano_img">
                                         <div class="container">
-                                            <img src="images/piso3_p1.png">
+                                            <img id="t1_p3_plano_recamara" src="images/planos/t1_p3_recamara.png">
+                                            <img id="t1_p3_plano_lavado" src="images/planos/t1_p3_lavado.png">
+                                            <img id="t1_p3_plano_banio" src="images/planos/t1_p3_banio.png">
                                         </div>
                                     </div>
                                 </div>
@@ -302,83 +309,91 @@
                             </li>
                         </ul>
                         <div class="tab-content">
-                            <!-- TIPO 1 PISO 1 -->
+                            <!-- TIPO 2 PISO 1 -->
                             <div class="tab-pane active" id="piso1_p2" role="tabpanel">
                                 <div class="row justify-content-center">
                                     <div class="col-3 plano_txt text_container">
                                         <p>
                                             PRIMER PISO
                                         </p>
-                                        <div class="icons_container">
+                                        <div  id="t2_p1_cocina" class="icons_container">
                                             <img class="icon" src="images/icons/cocina.svg">
                                             <div class="icon_text">COCINA</div>
                                         </div>
-                                        <div class="icons_container">
+                                        <div  id="t2_p1_sala" class="icons_container">
                                             <img class="icon" src="images/icons/sala.svg">
                                             <div class="icon_text">SALA</div>
                                         </div>
-                                        <div class="icons_container">
+                                        <div  id="t2_p1_comedor" class="icons_container">
                                             <img class="icon" src="images/icons/silla.svg">
                                             <div class="icon_text">COMEDOR</div>
                                         </div>
-                                        <div class="icons_container">
+                                        <div  id="t2_p1_banio" class="icons_container">
                                             <img class="icon" src="images/icons/inodoro.svg">
-                                            <div class="icon_text">1</div>
+                                            <div class="icon_text">BAÑO</div>
                                         </div>
                                     </div>
                                     <div class="col-4 plano_img">
-                                        <img src="images/piso1_p2.png">
+                                        <img id="t2_p1_plano_cocina" src="images/planos/t2_p1_cocina.png">
+                                        <img id="t2_p1_plano_sala" src="images/planos/sala.png">
+                                        <img id="t2_p1_plano_banio" src="images/planos/t2_p1_banio.png">
+                                        <img id="t2_p1_plano_comedor" src="images/planos/t2_p1_comedor.png">
                                     </div>
                                 </div>
                             </div>
-                            <!-- TIPO 1 PISO 2 -->
+                            <!-- TIPO 2 PISO 2 -->
                             <div class="tab-pane" id="piso2_p2" role="tabpanel">
                                 <div class="row justify-content-center">
                                     <div class="col-3 plano_txt text_container">
                                         <p>
                                             SEGUNDO PISO
                                         </p>
-                                        <div class="icons_container">
+                                        <div id="t2_p2_recamara" class="icons_container">
                                             <img class="icon" src="images/icons/cama.svg">
-                                            <div class="icon_text">2</div>
+                                            <div class="icon_text">RECAMARA</div>
                                         </div>
-                                        <div class="icons_container">
+                                        <div id="t2_p2_lavado" class="icons_container">
                                             <img class="icon" src="images/icons/lavadora.svg">
                                             <div class="icon_text">LAVADO</div>
                                         </div>
-                                        <div class="icons_container">
+                                        <div id="t2_p2_banio" class="icons_container">
                                             <img class="icon" src="images/icons/inodoro.svg">
-                                            <div class="icon_text">1</div>
+                                            <div class="icon_text">BAÑO</div>
                                         </div>
                                     </div>
                                     <div class="col-4 plano_img ">
-                                        <img src="images/piso2_p2.png">
+                                        <img id="t2_p2_plano_recamara" src="images/planos/t2_p2_recamara.png">
+                                        <img id="t2_p2_plano_lavado" src="images/planos/t2_p2_lavado.png">
+                                        <img id="t2_p2_plano_banio" src="images/planos/t2_p2_banio.png">
+
                                     </div>
                                 </div>
                             </div>
-                            <!-- TIPO 1 PISO 3 -->
+                            <!-- TIPO 2 PISO 3 -->
                             <div class="tab-pane" id="piso3_p2" role="tabpanel">
                                 <div class="row justify-content-center">
                                     <div class="col-3 plano_txt text_container">
                                         <p>
                                             TERCER PISO
                                         </p>
-                                        <div class="icons_container">
+                                        <div id="t2_p3_terraza" class="icons_container">
                                             <img class="icon" src="images/icons/terraza.svg">
                                             <div class="icon_text">TERRAZA</div>
                                         </div>
-                                        <div class="icons_container">
-                                            <img class="icon" src="images/icons/lavadora.svg">
+                                        <div id="t2_p3_estudio" class="icons_container">
+                                            <img class="icon" src="images/icons/sala.svg">
                                             <div class="icon_text">ESTUDIO</div>
                                         </div>
-                                        <div class="icons_container">
-                                            <img class="icon" src="images/icons/sala.svg">
-                                            <div class="icon_text">1</div>
+                                        <div id="t2_p3_banio" class="icons_container">
+                                            <img class="icon" src="images/icons/inodoro.svg">
+                                            <div class="icon_text">BAÑO</div>
                                         </div>
                                     </div>
                                     <div class="col-4 plano_img">
                                         <div class="container">
-                                            <img src="images/piso3_p2.png">
+                                            <img id="t2_p3_plano_terraza" src="images/planos/t2_p3_terraza.png">
+                                            <img id="t2_p3_plano_estudio" src="images/planos/t2_p3_recamara.png">
+                                            <img id="t2_p3_plano_banio" src="images/planos/t2_p3_banio.png">
                                         </div>
                                     </div>
                                 </div>
@@ -522,6 +537,43 @@
           </div>
         </div>
 
+        <div id="contacto_modal" class="modal contacto_modal">
+            <div style="position: relative;">
+                <span class="close_contacto">&times;</span>
+                <div class="modal-content">
+                    <div id="title">
+                        Agenda una visita
+                    </div>
+                    <div id="form" class="row justify-content-center">
+                        <div class="col-6">
+                            <input type="text" placeholder="Nombre" name="Nombre">
+                            <input type="text" placeholder="Fecha" name="Fecha">
+                        </div>
+                        <div class="col-6">
+                            <input type="text" placeholder="Email" name="Email">
+                            <input type="text" placeholder="Teléfono" name="Telefono">
+                        </div>
+                        <div class="col-12">
+                            <input id="mensaje" type="text" placeholder="Mensaje" name="mensaje">
+                        </div>
+                        <div class="col-12">
+                            <button type="button">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVPyg5gOhZtCErpZ4ZpgQAAeTeQ3-NNTY&callback=initMap"
+        async defer></script>
+        
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+
+        <script type="text/javascript" src="{{ URL::asset('/js/landing.js') }}"></script>
+
+
         <script>
           var map;
           function initMap() {
@@ -535,13 +587,5 @@
           }
 
         </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVPyg5gOhZtCErpZ4ZpgQAAeTeQ3-NNTY&callback=initMap"
-        async defer></script>
-        
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
-
-        <script type="text/javascript" src="{{ URL::asset('/js/landing.js') }}"></script>
     </body>
 </html>
