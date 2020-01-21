@@ -46,12 +46,42 @@
         </header>
         <div class="slider_container">
             <ul class="slideshow">
-              <li><span>Image 01</span><div><h3>A little something something</h3></div></li>
-              <li><span>Image 02</span></li>
-              <li><span>Image 03</span></li>
-              <li><span>Image 04</span></li>
-              <li><span>Image 05</span></li>
-              <li><span>Image 06</span></li>
+                <li>
+                    <span>Image 01</span>
+                    <div class="header_text_animation">
+                        Conoce tu nuevo hogar en un entorno privilegiado
+                    </div>
+                </li>
+                <li>
+                    <span>Image 02</span>
+                    <div class="header_text_animation">
+                        Punto Verde
+                    </div>
+                </li>
+                <li>
+                    <span>Image 03</span>
+                    <div class="header_text_animation">
+                        Una opción a tu alcance
+                    </div>
+                </li>
+                <li>
+                    <span>Image 04</span>
+                    <div class="header_text_animation">
+                        Comodidad, seguridad y tranquilidad
+                    </div>
+                </li>
+                <li>
+                    <span>Image 05</span>
+                    <div class="header_text_animation">
+                        Punto Verde
+                    </div>
+                </li>
+                <li>
+                    <span>Image 06</span>
+                    <div class="header_text_animation">
+                        Proyecto Residencial exclusivo
+                    </div>
+                </li>
             </ul>
             <div class="slider_cover">
             </div>
@@ -63,10 +93,8 @@
                 </div>
                 <div class="col-4 text_container">
                     <div class="">
-                        <div class="title">
-                            <p>
-                                Punto Verde
-                            </p>
+                        <div class="title Megant">
+                            Punto Verde
                         </div>
                         <br>
                         <div class="text_container">                    
@@ -88,35 +116,35 @@
         </div>
 
         <div id="section_2">
-            <div class="header">
+            <div class="header Megant">
                 Contamos con
             </div>
             <div class="row align-items-center">
                 <div class="col-sm">
                     <img class="icon" src="images/icons/casas.svg">
-                    <div class="icon_text">Zona Tranquila Y Segura</div>
+                    <div class="icon_text Megant">Zona Tranquila Y Segura</div>
                 </div>
                 <div class="col-sm">
                     <img class="icon" src="images/icons/guardaespaldas.svg">
-                    <div class="icon_text">Vigilancia 24 hrs</div>
+                    <div class="icon_text Megant">Vigilancia 24 hrs</div>
                 </div>
                 <div class="col-sm">
                     <img class="icon" src="images/icons/bicicleta.svg">
-                    <div class="icon_text">Áreas Verdes </div>
+                    <div class="icon_text Megant">Áreas Verdes </div>
                 </div>
             </div>
             <div class="row align-items-center">
                 <div class="col-sm">
                     <img class="icon" src="images/icons/terraza.svg">
-                    <div class="icon_text">Terraza</div>
+                    <div class="icon_text Megant">Terraza</div>
                 </div>
                 <div class="col-sm">
                     <img class="icon" src="images/icons/estacionamiento.svg">
-                    <div class="icon_text">Estacionamiento</div>
+                    <div class="icon_text Megant">Estacionamiento</div>
                 </div>
                 <div class="col-sm">
                     <img class="icon" src="images/icons/avenidas_principales.svg">
-                    <div class="icon_text">Cerca de avenida principales</div>
+                    <div class="icon_text Megant">Cerca de avenida principales</div>
                 </div>
             </div>
             <div class="w-100 icon_text">
@@ -130,7 +158,7 @@
             <div class="row align-items-center">
                 <div class="col-sm">
                     <img class="icon" src="images/icons/efectivo.svg">
-                    <div class="icon_text">PAGO DECONTADO</div>
+                    <div class="icon_text Megant">PAGO DECONTADO</div>
                     <div class="text">
                         En pago de contado, aparta con
 
@@ -145,7 +173,7 @@
                 </div>
                 <div class="col-sm">
                     <img class="icon" src="images/icons/tarjeta_credito.svg">
-                    <div class="icon_text">CRÉDITO BANCARIO</div>
+                    <div class="icon_text Megant">CRÉDITO BANCARIO</div>
                     <div class="text">
                         Te asesoramos para obtener
 
@@ -160,7 +188,7 @@
                 </div>
                 <div class="col-sm">
                     <img class="icon" src="images/icons/contador.svg">
-                    <div class="icon_text">INFONAVIT</div>
+                    <div class="icon_text Megant">INFONAVIT</div>
                     <div class="text">
                         Usa tu crédito INFONAVIT en
 
@@ -179,7 +207,7 @@
         </div>
 
         <div id="section_4">
-            <div class="header_nav">DISTRIBUCIÓN</div>
+            <div class="header_nav Megant">DISTRIBUCIÓN</div>
 
             <ul class="nav nav-tabs" role="tablist">
                 <li id="tipo1_nav" class="nav-item">
@@ -208,7 +236,7 @@
                             <div class="tab-pane active" id="piso1_p1" role="tabpanel">
                                 <div class="row justify-content-center">
                                     <div class="col-3 plano_txt text_container">
-                                        <p>
+                                        <p class="metros">
                                             PRIMER PISO   M2 : 52.00
                                         </p>
                                         <div id="t1_p1_cocina" class="icons_container">
@@ -405,7 +433,7 @@
         </div>
 
         <div id="section_5">
-            <div id="titulo">Galería</div>
+            <div id="titulo" class="Megant">Galería</div>
             <div class="galeria_container text-center">
                 <div class="row">
                     <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
@@ -427,6 +455,69 @@
                             </div>
                             <div class="carousel-item">
                                 <img class="d-block image6 col-3 img-fluid" src="images/_MG_3770.jpg ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block image6 col-3 img-fluid" src="images/_MG_3918.jpg ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block image6 col-3 img-fluid" src="images/_MG_3912.jpg ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block image6 col-3 img-fluid" src="images/_MG_3910.jpg ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block image6 col-3 img-fluid" src="images/_MG_3909.jpg ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block image6 col-3 img-fluid" src="images/_MG_3899.jpg ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block image6 col-3 img-fluid" src="images/_MG_3897.jpg ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block image6 col-3 img-fluid" src="images/_MG_3876.jpg ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block image6 col-3 img-fluid" src="images/_MG_3872.jpg ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block image6 col-3 img-fluid" src="images/_MG_3858.jpg ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block image6 col-3 img-fluid" src="images/_MG_3842.jpg ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block image6 col-3 img-fluid" src="images/_MG_3827.jpg ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block image6 col-3 img-fluid" src="images/_MG_3808.jpg ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block image6 col-3 img-fluid" src="images/_MG_3791.jpg ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block image6 col-3 img-fluid" src="images/_MG_3773.jpg ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block image6 col-3 img-fluid" src="images/_MG_3747.jpg ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block image6 col-3 img-fluid" src="images/_MG_3741.jpg ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block image6 col-3 img-fluid" src="images/_MG_3692.jpg ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block image6 col-3 img-fluid" src="images/_MG_3665.jpg ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block image6 col-3 img-fluid" src="images/_MG_3653.jpg ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block image6 col-3 img-fluid" src="images/_MG_3626.jpg ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block image6 col-3 img-fluid" src="images/_MG_3592.jpg ">
                             </div>
                         </div>
                     </div>
@@ -523,6 +614,69 @@
                     <div class="carousel-item">
                         <img class="d-block w-100" src="images/_MG_3770.jpg" data-color="violet" alt="sixth Image">
                     </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/_MG_3918.jpg" data-color="firebrick" alt="Second Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/_MG_3912.jpg" data-color="violet" alt="third Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/_MG_3910.jpg" data-color="violet" alt="fourth Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/_MG_3909.jpg" data-color="violet" alt="fifth Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/_MG_3899.jpg" data-color="firebrick" alt="Second Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/_MG_3897.jpg" data-color="violet" alt="third Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/_MG_3876.jpg" data-color="violet" alt="fourth Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/_MG_3872.jpg" data-color="violet" alt="fifth Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/_MG_3858.jpg" data-color="violet" alt="sixth Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/_MG_3842.jpg" data-color="firebrick" alt="Second Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/_MG_3827.jpg" data-color="violet" alt="third Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/_MG_3808.jpg" data-color="violet" alt="fourth Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/_MG_3791.jpg" data-color="violet" alt="fifth Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/_MG_3773.jpg" data-color="violet" alt="sixth Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/_MG_3747.jpg" data-color="violet" alt="sixth Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/_MG_3741.jpg" data-color="violet" alt="third Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/_MG_3692.jpg" data-color="violet" alt="fourth Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/_MG_3665.jpg" data-color="violet" alt="fifth Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/_MG_3653.jpg" data-color="violet" alt="sixth Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/_MG_3626.jpg" data-color="violet" alt="sixth Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/_MG_3592.jpg" data-color="violet" alt="sixth Image">
+                    </div>
                 </div>
                 <!-- Controls -->
                 <a class="carousel-control-prev" href="#carousel_modal" role="button" data-slide="prev">
@@ -578,7 +732,7 @@
           var map;
           function initMap() {
             // The location of Uluru
-            var location = {lat: 19.4741544, lng: -99.1885065};
+            var location = {lat: 19.4750199, lng: -99.1857254};
             // The map, centered at location
             var map = new google.maps.Map(
                 document.getElementById('map'), {zoom: 17, center: location});

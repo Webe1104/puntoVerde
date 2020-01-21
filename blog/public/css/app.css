@@ -59,7 +59,13 @@ src: url('font/LibreFranklinThin-G79a.ttf') format('truetype');
 font-weight: 200;
 font-style: normal;
 }
-
+@font-face {
+  font-family: 'Megant';
+  src: url('font/Megant.ttf') format('truetype');
+}
+.Megant{
+  font-family: 'Megant' !important;
+}
 
 html {
   overflow-x: hidden;
@@ -99,7 +105,7 @@ abbr,acronym { border:0;
 }
 /* General Demo Style */
 body{
-  font-family: 'LibreFranklin' !important;
+  font-family: 'LibreFranklin';
   font-size: 15px;
   font-weight: lighter;
   overflow-y: scroll;
@@ -112,10 +118,6 @@ body{
   color:#53585A;
   text-align: justify;
   font-size: large;
-}
-
-.icon{
-  width: 20px;
 }
 
 /*////HEADER*/
@@ -137,6 +139,27 @@ header .calendarContainer{
     /* overflow: hidden; */
     background-color: #000;
     opacity: 0.3;
+}
+.slideshow .header_text_animation {
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 500;
+  padding: 0;
+  color: #FFF;
+  top: 40%;
+}
+.icon{
+  width: 25px;
+}
+.phone{
+
+}
+
+@media screen and (max-width: 1140px) { 
+  .slideshow .header_text_animation { font-size: 100px }
+}
+@media screen and (max-width: 600px) { 
+  .slideshow .header_text_animation { font-size: 50px }
 }
 
 /*////SECTION_1*/
@@ -218,12 +241,13 @@ header .calendarContainer{
 }
 
 #section_2 .icon_text{
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 200;
   text-align: center;
 }
 
 .w-100.icon_text {
+  font-size: 25px;
   margin-top: 40px;
 }
 
@@ -346,10 +370,12 @@ header .calendarContainer{
   margin-top: 90px;
   font-size: 30px;
   text-align: center;
-
+}
+#section_4 .metros{
+  margin-left: 160px;
 }
 #section_4 .plano_txt{
-  padding: 40px;
+  padding: 20px;
   font-size: 24px;
   font-weight: 200;
 }
@@ -358,7 +384,7 @@ header .calendarContainer{
 }
 
 #section_4 .plano_img img{
-  height: 63vh;
+  height: 67vh;
   margin-left: 19%;
   margin-top: 40px;
 }
@@ -531,8 +557,7 @@ img.d-block.col-3.img-fluid {
   display: -webkit-box;
 }
 #contacto #direction_container{
-  display: inline-grid;
-  height: 40vh;
+  display: grid;
 }
 
 #contacto p{
@@ -548,7 +573,8 @@ input{
 #section_5 .img-fluid {
   transition: all 0.5s ease;
   cursor: pointer;
-  height: 430px;
+  width: 33.333%;
+  height: auto;
 }
 
 #section_5 .img-fluid:hover {
@@ -588,8 +614,9 @@ input{
 }
 
 #carousel_modal .carousel-item img{
-  margin: auto;
-  height: 80vh;
+  max-width: 600px;
+  margin: 5vh auto;
+  width: fit-content;
 }
 
 /* Add Animation */
