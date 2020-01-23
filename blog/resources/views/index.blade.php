@@ -257,10 +257,10 @@
                                         </div>
                                     </div>
                                     <div class="col-4 plano_img">
-                                        <img id="t1_p1_plano_cocina" src="images/planos/t1_p1_cocina.png">
-                                        <img id="t1_p1_plano_sala" src="images/planos/t1_p1_sala.png">
-                                        <img id="t1_p1_plano_banio" src="images/planos/t1_p1_banio.png">
-                                        <img id="t1_p1_plano_comedor" src="images/planos/t1_p1_comedor.png">
+                                        <img id="t1_p1_plano_cocina" class="primer_piso" src="images/planos/t1_p1_cocina.png">
+                                        <img id="t1_p1_plano_sala" class="primer_piso" src="images/planos/t1_p1_sala.png">
+                                        <img id="t1_p1_plano_banio" class="primer_piso" src="images/planos/t1_p1_banio.png">
+                                        <img id="t1_p1_plano_comedor" class="primer_piso" src="images/planos/t1_p1_comedor.png">
                                     </div>
                                 </div>
                             </div>
@@ -273,11 +273,11 @@
                                         </p>
                                         <div id="t1_p2_recamara" class="icons_container">
                                             <img class="icon" src="images/icons/cama.svg">
-                                            <div class="icon_text">RECAMARA</div>
+                                            <div class="icon_text">RECAMARAS</div>
                                         </div>
                                         <div id="t1_p2_lavado" class="icons_container">
-                                            <img class="icon" src="images/icons/terraza.svg">
-                                            <div class="icon_text">TERRAZA</div>
+                                            <img class="icon" src="images/icons/lavadora.svg">
+                                            <div class="icon_text">LAVADO</div>
                                         </div>
                                         <div id="t1_p2_banio" class="icons_container">
                                             <img class="icon" src="images/icons/inodoro.svg">
@@ -286,7 +286,7 @@
                                     </div>
                                     <div class="col-4 plano_img ">
                                         <img id="t1_p2_plano_recamara" src="images/planos/t1_p2_recamara.png">
-                                        <img id="t1_p2_plano_lavado" src="images/planos/t1_p2_terraza.png">
+                                        <img id="t1_p2_plano_lavado" src="images/planos/t1_p2_lavado.png">
                                         <img id="t1_p2_plano_banio" src="images/planos/t1_p2_banio.png">
                                     </div>
                                 </div>
@@ -302,9 +302,9 @@
                                             <img class="icon" src="images/icons/cama.svg">
                                             <div class="icon_text">RECAMARA</div>
                                         </div>
-                                        <div id="t1_p3_lavado" class="icons_container">
-                                            <img class="icon" src="images/icons/lavadora.svg">
-                                            <div class="icon_text">LAVADO</div>
+                                        <div id="t1_p3_terraza" class="icons_container">
+                                            <img class="icon" src="images/icons/terraza.svg">
+                                            <div class="icon_text">TERRAZA</div>
                                         </div>
                                         <div id="t1_p3_banio" class="icons_container">
                                             <img class="icon" src="images/icons/inodoro.svg">
@@ -314,7 +314,7 @@
                                     <div class="col-4 plano_img">
                                         <div class="container">
                                             <img id="t1_p3_plano_recamara" src="images/planos/t1_p3_recamara.png">
-                                            <img id="t1_p3_plano_lavado" src="images/planos/t1_p3_lavado.png">
+                                            <img id="t1_p3_plano_terraza" src="images/planos/t1_p3_terraza.png">
                                             <img id="t1_p3_plano_banio" src="images/planos/t1_p3_banio.png">
                                         </div>
                                     </div>
@@ -362,10 +362,10 @@
                                         </div>
                                     </div>
                                     <div class="col-4 plano_img">
-                                        <img id="t2_p1_plano_cocina" src="images/planos/t2_p1_cocina.png">
-                                        <img id="t2_p1_plano_sala" src="images/planos/sala.png">
-                                        <img id="t2_p1_plano_banio" src="images/planos/t2_p1_banio.png">
-                                        <img id="t2_p1_plano_comedor" src="images/planos/t2_p1_comedor.png">
+                                        <img id="t2_p1_plano_cocina" class="primer_piso" src="images/planos/t2_p1_cocina.png">
+                                        <img id="t2_p1_plano_sala" class="primer_piso" src="images/planos/t2_p1_sala.png">
+                                        <img id="t2_p1_plano_banio" class="primer_piso" src="images/planos/t2_p1_banio.png">
+                                        <img id="t2_p1_plano_comedor" class="primer_piso" src="images/planos/t2_p1_comedor.png">
                                     </div>
                                 </div>
                             </div>
@@ -420,7 +420,7 @@
                                     <div class="col-4 plano_img">
                                         <div class="container">
                                             <img id="t2_p3_plano_terraza" src="images/planos/t2_p3_terraza.png">
-                                            <img id="t2_p3_plano_estudio" src="images/planos/t2_p3_recamara.png">
+                                            <img id="t2_p3_plano_estudio" src="images/planos/t2_p3_estudio.png">
                                             <img id="t2_p3_plano_banio" src="images/planos/t2_p3_banio.png">
                                         </div>
                                     </div>

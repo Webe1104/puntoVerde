@@ -7,6 +7,12 @@ $( document ).ready(function() {
     $("#t1_p1_plano_sala").hide();
     $("#t1_p1_plano_comedor ").hide();
 
+    $("#t1_p2_plano_lavado").hide();
+    $("#t1_p2_plano_banio").hide();
+
+    $("#t1_p3_plano_terraza").hide();
+    $("#t1_p3_plano_banio").hide();
+
     $("#t2_p1_plano_banio").hide();
     $("#t2_p1_plano_sala").hide();
     $("#t2_p1_plano_comedor ").hide();
@@ -83,12 +89,12 @@ $("#t1_p2_banio").hover(function(){
 ////// TIPO 1 PISO 3
 $("#t1_p3_recamara").hover(function(){
   $('#t1_p3_plano_recamara').show();
-  $('#t1_p3_plano_lavado').hide();
+  $('#t1_p3_plano_terraza').hide();
   $('#t1_p3_plano_banio').hide();
 });
 
-$("#t1_p3_lavado").hover(function(){
-  $('#t1_p3_plano_lavado').show();
+$("#t1_p3_terraza").hover(function(){
+  $('#t1_p3_plano_terraza').show();
   $('#t1_p3_plano_recamara').hide();
   $('#t1_p3_plano_banio').hide();
 });
@@ -96,7 +102,7 @@ $("#t1_p3_lavado").hover(function(){
 $("#t1_p3_banio").hover(function(){
   $('#t1_p3_plano_banio').show();
   $('#t1_p3_plano_recamara').hide();
-  $('#t1_p3_plano_lavado').hide();
+  $('#t1_p3_plano_terraza').hide();
 });
 
 ////// TIPO 2 PISO 1

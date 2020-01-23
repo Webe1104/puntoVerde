@@ -69,6 +69,7 @@ font-style: normal;
 
 html {
   overflow-x: hidden;
+  min-width: 335px;
 }
 
 html,body {
@@ -112,6 +113,77 @@ body{
   overflow-x: hidden;
 }
 
+@media screen and (min-width: 900px) and (max-width: 1051px){ 
+  html{
+    width: 101%;
+  }
+}
+@media screen and (min-width: 660px) and (max-width: 680px){ 
+  html{
+    width: 102%;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 660px){ 
+  html{
+    width: 103%;
+  }
+}
+@media screen and (min-width: 615px) and (max-width: 640px){ 
+  html{
+    width: 104%;
+  }
+}
+@media screen and (min-width: 597px) and (max-width: 615px){ 
+  html{
+    width: 105%;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 597px){ 
+  html{
+    width: 106%;
+  }
+}
+@media screen and (min-width: 547px) and (max-width: 577px){ 
+  html{
+    width: 107%;
+  }
+}
+@media screen and (min-width: 531px) and (max-width: 547px){ 
+  html{
+    width: 108%;
+  }
+}
+@media screen and (min-width: 516px) and (max-width: 531px){ 
+  html{
+    width: 108%;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 516px){ 
+  html{
+    width: 110%;
+  }
+}
+@media screen and (min-width: 476px) and (max-width: 501px){ 
+  html{
+    width: 112%;
+  }
+}
+@media screen and (min-width: 452px) and (max-width: 476px){ 
+  html{
+    width: 114%;
+  }
+}
+@media screen and (min-width: 430px) and (max-width: 452px){ 
+  html{
+    width: 116%;
+  }
+}
+@media screen and (min-width: 410px) and (max-width: 430px){ 
+  html{
+    width: 118%;
+  }
+}
+
 
 /*//// GLOBAL*/
 .text_container{
@@ -142,11 +214,15 @@ header .calendarContainer{
 }
 .slideshow .header_text_animation {
   text-transform: uppercase;
-  font-size: 60px;
+  font-size: 5vw;
   font-weight: 500;
   padding: 0;
   color: #FFF;
+  margin: auto;
   top: 40%;
+  max-width: 900px;
+  left: 0;
+  right: 0;
 }
 .icon{
   width: 25px;
@@ -156,7 +232,7 @@ header .calendarContainer{
 }
 
 @media screen and (max-width: 1140px) { 
-  .slideshow .header_text_animation { font-size: 100px }
+  /*.slideshow .header_text_animation { font-size: 100px }*/
 }
 @media screen and (max-width: 600px) { 
   .slideshow .header_text_animation { font-size: 50px }
@@ -197,7 +273,7 @@ header .calendarContainer{
 }
 
 #section_1 .text_container{
-    font-size: 23px;
+    font-size: 2vw;
     margin: 20px 0px;
     font-weight: 200;
 }
@@ -376,17 +452,17 @@ header .calendarContainer{
 }
 #section_4 .plano_txt{
   padding: 20px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 200;
 }
 
-#section_4 .plano_img{
+#section_4 .primer_piso{
+  width: 510px !important;
 }
 
 #section_4 .plano_img img{
-  height: 67vh;
-  margin-left: 19%;
-  margin-top: 40px;
+  width: 410px;
+  margin: 40px 0;
 }
 
 #section_4 .icon{
