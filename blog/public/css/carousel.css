@@ -35,7 +35,7 @@ a{
   padding: 0px 0px 5px 0px;
 
   text-align: center;
-  font-size: 27px;
+  font-size: 3vw;
   font-weight: lighter;
 }
 
@@ -57,17 +57,12 @@ a{
 }
 
 .slideshow {
-    /*position: fixed;*/
-    height: 100%;
-    /*top: 0px;
-    left: 0px;*/
     z-index: 0;
     width: 100%;
-
     position: relative;
     height: 100vh;
-
     overflow: hidden;
+    top: -25px;
 }
 .slideshow:after {
   position: fixed;
@@ -80,8 +75,6 @@ a{
   right: 0px;
   width: 40px;
   height: 40px;
-
-
 
     /* flechas de carousel content: '';
     background: transparent url(../images/arrow.svg) repeat top left;*/
@@ -119,6 +112,7 @@ a{
     -ms-animation: titleAnimation 36s linear infinite 0s;
     animation: titleAnimation 36s linear infinite 0s;
 }
+
 .slideshow li:nth-child(1) span { background-image: url(../images/_MG_3848.jpg) }
 .slideshow li:nth-child(2) span {
     background-image: url(../images/_MG_3701.jpg);

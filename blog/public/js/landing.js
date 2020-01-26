@@ -21,7 +21,7 @@ $( document ).ready(function() {
     $("#t2_p2_plano_lavado").hide();
 
     $("#t2_p3_plano_banio").hide();
-    $("#t2_p3_plano_recamara").hide();
+    $("#t2_p3_plano_estudio").hide();
 
     initMap();
     

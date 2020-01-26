@@ -12,39 +12,41 @@
 
     </head>
     <body>
-        <header>
-            <div class="">
-                <div class="row justify-content-center" >
-                    <div class="col-9">
-                        <div class="row justify-content-center">
-                            <div class="col-2 header_text" id="home_header">
-                              Inicio
-                            </div>
-                            <div class="col-2 header_text" id="casas_header">
-                              Casas 
-                            </div>
-                            <div class="col-2 header_text" id="galeria_header">
-                              Galería
-                            </div>
-                            <div class="col-2 header_text" id="contacto_header">
-                              Contacto
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-2 calendarContainer">
-                        <div class="row justify-content-end">
-                            <div id="calendar" class="col-4 calendar">
-                                <img class="icon" src="images/icons/calendar.svg">
-                            </div>
-                            <div class="col-4">
-                                <div class="phone">(55)80269704</div>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-            </div>
-        </header>
         <div class="slider_container">
+            <div id="header">
+                <header>
+                    <div class="">
+                        <div class="row justify-content-center" >
+                            <div class="col-lg-9 col-md-8 col-9">
+                                <div class="row justify-content-center">
+                                    <div class="col-3 header_text" id="home_header">
+                                      Inicio
+                                    </div>
+                                    <div class="col-3 header_text" id="casas_header">
+                                      Casas 
+                                    </div>
+                                    <div class="col-3 header_text" id="galeria_header">
+                                      Galería
+                                    </div>
+                                    <div class="col-3 header_text" id="contacto_header">
+                                      Contacto
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-1 calendarContainer">
+                                <div class="row justify-content-end">
+                                    <div id="calendar" class="col-4 calendar">
+                                        <img class="icon" src="images/icons/calendar.svg">
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="phone">(55)80269704</div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                </header>
+            </div>
             <ul class="slideshow">
                 <li>
                     <span>Image 01</span>
@@ -88,28 +90,24 @@
         </div>
         <div id="section_1">
             <div class="row justify-content-center align-items-center">
-                <div class="col-5 image_col">
+                <div class="col-lg-5 col-md-5 col-sm-6 col-8 image_col">
                     <img src="images/_MG_3702.jpg">
                 </div>
-                <div class="col-4 text_container">
-                    <div class="">
-                        <div class="title Megant">
-                            Punto Verde
-                        </div>
-                        <br>
-                        <div class="text_container">                    
-                            <p>
-                                Bienvenido a punto verde un proyecto residencial con 13 casas en condominio totalmente nuevas con una magnifica distribución y acabados de primera calidad. El proyecto arquitectonico fue desarrollado respetando la vegetacion existente creando una atmosfera de tranquilidad y estilo de vida privilegiado
-                            </p>
-                            <br>
-                            <p>
-                                Detalles de Contruccion
-                            </p>
-                            <br>
-                            <p>
-                                Tres estilos de casas que van de 120 m2 a 140 m2 distribuidos en tres niveles. Logrando combinar diseño y confort, creadas en un entorno donde la sustentabilidad y el respeto por la naturaleza es una prioridad.
-                            </p>
-                        </div>
+                <div class="col-lg-4 col-md-4 col-sm-9 col-9 text_containerr">
+                    <div class="title Megant">
+                        Punto Verde
+                    </div>
+                    <br>
+                    <div class="text_container">                    
+                        <p>
+                            Bienvenido a punto verde un proyecto residencial con 13 casas en condominio totalmente nuevas con una magnifica distribución y acabados de primera calidad. El proyecto arquitectonico fue desarrollado respetando la vegetacion existente creando una atmosfera de tranquilidad y estilo de vida privilegiado
+                        </p>
+                        <p>
+                            Detalles de Contruccion
+                        </p>
+                        <p>
+                            Tres estilos de casas que van de 120 m2 a 140 m2 distribuidos en tres niveles. Logrando combinar diseño y confort, creadas en un entorno donde la sustentabilidad y el respeto por la naturaleza es una prioridad.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -120,43 +118,41 @@
                 Contamos con
             </div>
             <div class="row align-items-center">
-                <div class="col-sm">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 ">
                     <img class="icon" src="images/icons/casas.svg">
                     <div class="icon_text Megant">Zona Tranquila Y Segura</div>
                 </div>
-                <div class="col-sm">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 ">
                     <img class="icon" src="images/icons/guardaespaldas.svg">
                     <div class="icon_text Megant">Vigilancia 24 hrs</div>
                 </div>
-                <div class="col-sm">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 ">
                     <img class="icon" src="images/icons/bicicleta.svg">
                     <div class="icon_text Megant">Áreas Verdes </div>
                 </div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-sm">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 ">
                     <img class="icon" src="images/icons/terraza.svg">
                     <div class="icon_text Megant">Terraza</div>
                 </div>
-                <div class="col-sm">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 ">
                     <img class="icon" src="images/icons/estacionamiento.svg">
                     <div class="icon_text Megant">Estacionamiento</div>
                 </div>
-                <div class="col-sm">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 ">
                     <img class="icon" src="images/icons/avenidas_principales.svg">
                     <div class="icon_text Megant">Cerca de avenida principales</div>
                 </div>
-            </div>
-            <div class="w-100 icon_text">
-                Punto Verde es un desarrollo residencial diseñado y planeado para brindar a sus residentes
-                todas las comodidades ofreciendo equilibrio en su diseño, planeación en sus distribuciones,
-                tranquilidad y seguridad que necesitan para que disfruten cada día de su nuevo hogar.
+                <div class="col-12 text_description">
+                    Punto Verde es un desarrollo residencial diseñado y planeado para brindar a sus residentes
+                    todas las comodidades ofreciendo equilibrio en su diseño, planeación en sus distribuciones,
+                    tranquilidad y seguridad que necesitan para que disfruten cada día de su nuevo hogar.
+                </div>
             </div>
         </div>
 
         <div id="section_3">
             <div class="row align-items-center">
-                <div class="col-sm">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                     <img class="icon" src="images/icons/efectivo.svg">
                     <div class="icon_text Megant">PAGO DECONTADO</div>
                     <div class="text">
@@ -171,7 +167,7 @@
                         firma de escrituras.
                     </div>
                 </div>
-                <div class="col-sm">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                     <img class="icon" src="images/icons/tarjeta_credito.svg">
                     <div class="icon_text Megant">CRÉDITO BANCARIO</div>
                     <div class="text">
@@ -186,7 +182,7 @@
                         instituciones bancarias.
                     </div>
                 </div>
-                <div class="col-sm">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                     <img class="icon" src="images/icons/contador.svg">
                     <div class="icon_text Megant">INFONAVIT</div>
                     <div class="text">
@@ -234,29 +230,31 @@
                         <div class="tab-content">
                             <!-- TIPO 1 PISO 1 -->
                             <div class="tab-pane active" id="piso1_p1" role="tabpanel">
-                                <div class="row justify-content-center">
-                                    <div class="col-3 plano_txt text_container">
-                                        <p class="metros">
-                                            PRIMER PISO   M2 : 52.00
-                                        </p>
-                                        <div id="t1_p1_cocina" class="icons_container">
-                                            <img class="icon" src="images/icons/cocina.svg">
-                                            <div class="icon_text">COCINA</div>
-                                        </div>
-                                        <div id="t1_p1_sala" class="icons_container">
-                                            <img class="icon" src="images/icons/sala.svg">
-                                            <div class="icon_text">SALA</div>
-                                        </div>
-                                        <div id="t1_p1_comedor" class="icons_container">
-                                            <img class="icon" src="images/icons/silla.svg">
-                                            <div class="icon_text">COMEDOR</div>
-                                        </div>
-                                        <div id="t1_p1_banio" class="icons_container">
-                                            <img class="icon" src="images/icons/inodoro.svg">
-                                            <div class="icon_text">BAÑO</div>
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-lg-4 col-md-4 col-sm-12 col-12 plano_txt text_container">
+                                        <div class="row justify-content-center">
+                                            <p class="col-11">
+                                                PRIMER PISO   M2 : 52.00
+                                            </p>
+                                            <div id="t1_p1_cocina" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
+                                                <img class="icon" src="images/icons/cocina.svg">
+                                                <div class="icon_text">COCINA</div>
+                                            </div>
+                                            <div id="t1_p1_sala" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
+                                                <img class="icon" src="images/icons/sala.svg">
+                                                <div class="icon_text">SALA</div>
+                                            </div>
+                                            <div id="t1_p1_comedor" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
+                                                <img class="icon" src="images/icons/silla.svg">
+                                                <div class="icon_text">COMEDOR</div>
+                                            </div>
+                                            <div id="t1_p1_banio" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
+                                                <img class="icon" src="images/icons/inodoro.svg">
+                                                <div class="icon_text">BAÑO</div>
+                                            </div>    
                                         </div>
                                     </div>
-                                    <div class="col-4 plano_img">
+                                    <div class="col-lg-4 col-md-4 col-sm-7 col-6 plano_img">
                                         <img id="t1_p1_plano_cocina" class="primer_piso" src="images/planos/t1_p1_cocina.png">
                                         <img id="t1_p1_plano_sala" class="primer_piso" src="images/planos/t1_p1_sala.png">
                                         <img id="t1_p1_plano_banio" class="primer_piso" src="images/planos/t1_p1_banio.png">
@@ -267,24 +265,26 @@
                             <!-- TIPO 1 PISO 2 -->
                             <div class="tab-pane" id="piso2_p1" role="tabpanel">
                                 <div class="row justify-content-center">
-                                    <div class="col-3 plano_txt text_container">
-                                        <p>
-                                            SEGUNDO PISO
-                                        </p>
-                                        <div id="t1_p2_recamara" class="icons_container">
-                                            <img class="icon" src="images/icons/cama.svg">
-                                            <div class="icon_text">RECAMARAS</div>
-                                        </div>
-                                        <div id="t1_p2_lavado" class="icons_container">
-                                            <img class="icon" src="images/icons/lavadora.svg">
-                                            <div class="icon_text">LAVADO</div>
-                                        </div>
-                                        <div id="t1_p2_banio" class="icons_container">
-                                            <img class="icon" src="images/icons/inodoro.svg">
-                                            <div class="icon_text">BAÑO</div>
+                                    <div class="col-lg-4 col-md-4 col-sm-12 col-12 plano_txt menos_iconos text_container">
+                                        <div class="row justify-content-center">
+                                            <p class="col-11">
+                                                SEGUNDO PISO
+                                            </p>
+                                            <div id="t1_p2_recamara" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
+                                                <img class="icon" src="images/icons/cama.svg">
+                                                <div class="icon_text">RECAMARAS</div>
+                                            </div>
+                                            <div id="t1_p2_lavado" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
+                                                <img class="icon" src="images/icons/lavadora.svg">
+                                                <div class="icon_text">LAVADO</div>
+                                            </div>
+                                            <div id="t1_p2_banio" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
+                                                <img class="icon" src="images/icons/inodoro.svg">
+                                                <div class="icon_text">BAÑO</div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col-4 plano_img ">
+                                    <div class="col-lg-4 col-md-4 col-sm-7 col-6 plano_img ">
                                         <img id="t1_p2_plano_recamara" src="images/planos/t1_p2_recamara.png">
                                         <img id="t1_p2_plano_lavado" src="images/planos/t1_p2_lavado.png">
                                         <img id="t1_p2_plano_banio" src="images/planos/t1_p2_banio.png">
@@ -294,24 +294,26 @@
                             <!-- TIPO 1 PISO 3 -->
                             <div class="tab-pane" id="piso3_p1" role="tabpanel">
                                 <div class="row justify-content-center">
-                                    <div class="col-3 plano_txt text_container">
-                                        <p>
-                                            TERCER PISO
-                                        </p>
-                                        <div id="t1_p3_recamara" class="icons_container">
-                                            <img class="icon" src="images/icons/cama.svg">
-                                            <div class="icon_text">RECAMARA</div>
-                                        </div>
-                                        <div id="t1_p3_terraza" class="icons_container">
-                                            <img class="icon" src="images/icons/terraza.svg">
-                                            <div class="icon_text">TERRAZA</div>
-                                        </div>
-                                        <div id="t1_p3_banio" class="icons_container">
-                                            <img class="icon" src="images/icons/inodoro.svg">
-                                            <div class="icon_text">BAÑO</div>
+                                    <div class="col-lg-4 col-md-4 col-sm-12 col-12 plano_txt menos_iconos text_container">
+                                        <div class="row justify-content-center">
+                                            <p class="col-11">
+                                                TERCER PISO
+                                            </p>
+                                            <div id="t1_p3_recamara" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
+                                                <img class="icon" src="images/icons/cama.svg">
+                                                <div class="icon_text">RECAMARA</div>
+                                            </div>
+                                            <div id="t1_p3_terraza" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
+                                                <img class="icon" src="images/icons/terraza.svg">
+                                                <div class="icon_text">TERRAZA</div>
+                                            </div>
+                                            <div id="t1_p3_banio" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
+                                                <img class="icon" src="images/icons/inodoro.svg">
+                                                <div class="icon_text">BAÑO</div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col-4 plano_img">
+                                    <div class="col-lg-4 col-md-4 col-sm-7 col-6 plano_img">
                                         <div class="container">
                                             <img id="t1_p3_plano_recamara" src="images/planos/t1_p3_recamara.png">
                                             <img id="t1_p3_plano_terraza" src="images/planos/t1_p3_terraza.png">
@@ -340,28 +342,30 @@
                             <!-- TIPO 2 PISO 1 -->
                             <div class="tab-pane active" id="piso1_p2" role="tabpanel">
                                 <div class="row justify-content-center">
-                                    <div class="col-3 plano_txt text_container">
-                                        <p>
-                                            PRIMER PISO
-                                        </p>
-                                        <div  id="t2_p1_cocina" class="icons_container">
-                                            <img class="icon" src="images/icons/cocina.svg">
-                                            <div class="icon_text">COCINA</div>
-                                        </div>
-                                        <div  id="t2_p1_sala" class="icons_container">
-                                            <img class="icon" src="images/icons/sala.svg">
-                                            <div class="icon_text">SALA</div>
-                                        </div>
-                                        <div  id="t2_p1_comedor" class="icons_container">
-                                            <img class="icon" src="images/icons/silla.svg">
-                                            <div class="icon_text">COMEDOR</div>
-                                        </div>
-                                        <div  id="t2_p1_banio" class="icons_container">
-                                            <img class="icon" src="images/icons/inodoro.svg">
-                                            <div class="icon_text">BAÑO</div>
+                                    <div class="col-lg-4 col-md-4 col-sm-12 col-12 plano_txt text_container">
+                                        <div class="row justify-content-center">
+                                            <p class="col-11">
+                                                PRIMER PISO
+                                            </p>
+                                            <div  id="t2_p1_cocina" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
+                                                <img class="icon" src="images/icons/cocina.svg">
+                                                <div class="icon_text">COCINA</div>
+                                            </div>
+                                            <div  id="t2_p1_sala" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
+                                                <img class="icon" src="images/icons/sala.svg">
+                                                <div class="icon_text">SALA</div>
+                                            </div>
+                                            <div  id="t2_p1_comedor" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
+                                                <img class="icon" src="images/icons/silla.svg">
+                                                <div class="icon_text">COMEDOR</div>
+                                            </div>
+                                            <div  id="t2_p1_banio" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
+                                                <img class="icon" src="images/icons/inodoro.svg">
+                                                <div class="icon_text">BAÑO</div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col-4 plano_img">
+                                    <div class="col-lg-4 col-md-4 col-sm-7 col-6 plano_img">
                                         <img id="t2_p1_plano_cocina" class="primer_piso" src="images/planos/t2_p1_cocina.png">
                                         <img id="t2_p1_plano_sala" class="primer_piso" src="images/planos/t2_p1_sala.png">
                                         <img id="t2_p1_plano_banio" class="primer_piso" src="images/planos/t2_p1_banio.png">
@@ -372,24 +376,26 @@
                             <!-- TIPO 2 PISO 2 -->
                             <div class="tab-pane" id="piso2_p2" role="tabpanel">
                                 <div class="row justify-content-center">
-                                    <div class="col-3 plano_txt text_container">
-                                        <p>
-                                            SEGUNDO PISO
-                                        </p>
-                                        <div id="t2_p2_recamara" class="icons_container">
-                                            <img class="icon" src="images/icons/cama.svg">
-                                            <div class="icon_text">RECAMARA</div>
-                                        </div>
-                                        <div id="t2_p2_lavado" class="icons_container">
-                                            <img class="icon" src="images/icons/lavadora.svg">
-                                            <div class="icon_text">LAVADO</div>
-                                        </div>
-                                        <div id="t2_p2_banio" class="icons_container">
-                                            <img class="icon" src="images/icons/inodoro.svg">
-                                            <div class="icon_text">BAÑO</div>
+                                    <div class="col-lg-4 col-md-4 col-sm-12 col-12 plano_txt menos_iconos text_container">
+                                        <div class="row justify-content-center">
+                                            <p class="col-11">
+                                                SEGUNDO PISO
+                                            </p>
+                                            <div id="t2_p2_recamara" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
+                                                <img class="icon" src="images/icons/cama.svg">
+                                                <div class="icon_text">RECAMARA</div>
+                                            </div>
+                                            <div id="t2_p2_lavado" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
+                                                <img class="icon" src="images/icons/lavadora.svg">
+                                                <div class="icon_text">LAVADO</div>
+                                            </div>
+                                            <div id="t2_p2_banio" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
+                                                <img class="icon" src="images/icons/inodoro.svg">
+                                                <div class="icon_text">BAÑO</div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col-4 plano_img ">
+                                    <div class="col-lg-4 col-md-4 col-sm-7 col-6 plano_img ">
                                         <img id="t2_p2_plano_recamara" src="images/planos/t2_p2_recamara.png">
                                         <img id="t2_p2_plano_lavado" src="images/planos/t2_p2_lavado.png">
                                         <img id="t2_p2_plano_banio" src="images/planos/t2_p2_banio.png">
@@ -400,24 +406,26 @@
                             <!-- TIPO 2 PISO 3 -->
                             <div class="tab-pane" id="piso3_p2" role="tabpanel">
                                 <div class="row justify-content-center">
-                                    <div class="col-3 plano_txt text_container">
-                                        <p>
-                                            TERCER PISO
-                                        </p>
-                                        <div id="t2_p3_terraza" class="icons_container">
-                                            <img class="icon" src="images/icons/terraza.svg">
-                                            <div class="icon_text">TERRAZA</div>
-                                        </div>
-                                        <div id="t2_p3_estudio" class="icons_container">
-                                            <img class="icon" src="images/icons/sala.svg">
-                                            <div class="icon_text">ESTUDIO</div>
-                                        </div>
-                                        <div id="t2_p3_banio" class="icons_container">
-                                            <img class="icon" src="images/icons/inodoro.svg">
-                                            <div class="icon_text">BAÑO</div>
+                                    <div class="col-lg-4 col-md-4 col-sm-12 col-12 plano_txt menos_iconos text_container">
+                                        <div class="row justify-content-center">
+                                            <p class="col-11">
+                                                TERCER PISO
+                                            </p>
+                                            <div id="t2_p3_terraza" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
+                                                <img class="icon" src="images/icons/terraza.svg">
+                                                <div class="icon_text">TERRAZA</div>
+                                            </div>
+                                            <div id="t2_p3_estudio" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
+                                                <img class="icon" src="images/icons/sala.svg">
+                                                <div class="icon_text">ESTUDIO</div>
+                                            </div>
+                                            <div id="t2_p3_banio" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
+                                                <img class="icon" src="images/icons/inodoro.svg">
+                                                <div class="icon_text">BAÑO</div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col-4 plano_img">
+                                    <div class="col-lg-4 col-md-4 col-sm-7 col-6 plano_img">
                                         <div class="container">
                                             <img id="t2_p3_plano_terraza" src="images/planos/t2_p3_terraza.png">
                                             <img id="t2_p3_plano_estudio" src="images/planos/t2_p3_estudio.png">
@@ -532,7 +540,7 @@
         <div id="contacto">
             <div class="container">
                 <div class="row">
-                    <div class="col-7">
+                    <div class="col-lg-7 col-md-7 col-sm-12 col-12">
                         <h3>Contacto</h3>
                         <form>
                             <label id="name_label" for="name">Nombre</label>
@@ -550,36 +558,38 @@
                             <button type="submit">Enviar</button>
                         </form>
                     </div>
-                    <div id="direction_container" class="col-5">
-                        <div class="txt">
-                            <img class="icon" src="images/icons/ubicacion.svg">
-                            <p>
-                                Dirección :  Aquiles Elorduy 25<br>
-                                Col. El Recreo Del. Cuauhtemoc<br>
-                                C.P. 02070 CDMX
-                            </p>
-                        </div>
+                    <div id="direction_container" class="col-lg-5 col-md-5 col-sm-12 col-12">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12 col-md-12 col-sm-5 col-5 txt">
+                                <img class="icon" src="images/icons/ubicacion.svg">
+                                <p>
+                                    Dirección :  Aquiles Elorduy 25<br>
+                                    Col. El Recreo Del. Cuauhtemoc<br>
+                                    C.P. 02070 CDMX
+                                </p>
+                            </div>
 
-                        <div class="txt">
-                            <img class="icon" src="images/icons/whatsapp.svg">
-                            <p>
-                                (52) 55 80369704
-                            </p>
-                        </div>
+                            <div class="col-lg-12 col-md-12 col-sm-5 col-5 txt">
+                                <img class="icon" src="images/icons/whatsapp.svg">
+                                <p>
+                                    (52) 55 80369704
+                                </p>
+                            </div>
 
-                        <div class="txt">
-                            <img class="icon" src="images/icons/telefono.svg">
-                            <p>
-                                (52) 55 80369704
-                            </p>
-                        </div>
+                            <div class="col-lg-12 col-md-12 col-sm-5 col-5 txt">
+                                <img class="icon" src="images/icons/telefono.svg">
+                                <p>
+                                    (52) 55 80369704
+                                </p>
+                            </div>
 
 
-                        <div class="txt">
-                            <img class="icon" src="images/icons/email.svg">
-                            <p>
-                                contacto@grupopuntoverde.mx
-                            </p>
+                            <div class="col-lg-12 col-md-12 col-sm-5 col-5 txt">
+                                <img class="icon" src="images/icons/email.svg">
+                                <p>
+                                    contacto@grupopuntoverde.mx
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -597,85 +607,85 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="images/_MG_3876.jpg" data-color="lightblue" alt="First Image">
+                        <img class="d-block" src="images/_MG_3876.jpg" data-color="lightblue" alt="First Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3803.jpg" data-color="firebrick" alt="Second Image">
+                        <img class="d-block" src="images/_MG_3803.jpg" data-color="firebrick" alt="Second Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3701.jpg" data-color="violet" alt="third Image">
+                        <img class="d-block" src="images/_MG_3701.jpg" data-color="violet" alt="third Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3858.jpg" data-color="violet" alt="fourth Image">
+                        <img class="d-block" src="images/_MG_3858.jpg" data-color="violet" alt="fourth Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3646.jpg" data-color="violet" alt="fifth Image">
+                        <img class="d-block" src="images/_MG_3646.jpg" data-color="violet" alt="fifth Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3770.jpg" data-color="violet" alt="sixth Image">
+                        <img class="d-block" src="images/_MG_3770.jpg" data-color="violet" alt="sixth Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3918.jpg" data-color="firebrick" alt="Second Image">
+                        <img class="d-block" src="images/_MG_3918.jpg" data-color="firebrick" alt="Second Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3912.jpg" data-color="violet" alt="third Image">
+                        <img class="d-block" src="images/_MG_3912.jpg" data-color="violet" alt="third Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3910.jpg" data-color="violet" alt="fourth Image">
+                        <img class="d-block" src="images/_MG_3910.jpg" data-color="violet" alt="fourth Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3909.jpg" data-color="violet" alt="fifth Image">
+                        <img class="d-block" src="images/_MG_3909.jpg" data-color="violet" alt="fifth Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3899.jpg" data-color="firebrick" alt="Second Image">
+                        <img class="d-block" src="images/_MG_3899.jpg" data-color="firebrick" alt="Second Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3897.jpg" data-color="violet" alt="third Image">
+                        <img class="d-block" src="images/_MG_3897.jpg" data-color="violet" alt="third Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3876.jpg" data-color="violet" alt="fourth Image">
+                        <img class="d-block" src="images/_MG_3876.jpg" data-color="violet" alt="fourth Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3872.jpg" data-color="violet" alt="fifth Image">
+                        <img class="d-block" src="images/_MG_3872.jpg" data-color="violet" alt="fifth Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3858.jpg" data-color="violet" alt="sixth Image">
+                        <img class="d-block" src="images/_MG_3858.jpg" data-color="violet" alt="sixth Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3842.jpg" data-color="firebrick" alt="Second Image">
+                        <img class="d-block" src="images/_MG_3842.jpg" data-color="firebrick" alt="Second Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3827.jpg" data-color="violet" alt="third Image">
+                        <img class="d-block" src="images/_MG_3827.jpg" data-color="violet" alt="third Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3808.jpg" data-color="violet" alt="fourth Image">
+                        <img class="d-block" src="images/_MG_3808.jpg" data-color="violet" alt="fourth Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3791.jpg" data-color="violet" alt="fifth Image">
+                        <img class="d-block" src="images/_MG_3791.jpg" data-color="violet" alt="fifth Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3773.jpg" data-color="violet" alt="sixth Image">
+                        <img class="d-block" src="images/_MG_3773.jpg" data-color="violet" alt="sixth Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3747.jpg" data-color="violet" alt="sixth Image">
+                        <img class="d-block" src="images/_MG_3747.jpg" data-color="violet" alt="sixth Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3741.jpg" data-color="violet" alt="third Image">
+                        <img class="d-block" src="images/_MG_3741.jpg" data-color="violet" alt="third Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3692.jpg" data-color="violet" alt="fourth Image">
+                        <img class="d-block" src="images/_MG_3692.jpg" data-color="violet" alt="fourth Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3665.jpg" data-color="violet" alt="fifth Image">
+                        <img class="d-block" src="images/_MG_3665.jpg" data-color="violet" alt="fifth Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3653.jpg" data-color="violet" alt="sixth Image">
+                        <img class="d-block" src="images/_MG_3653.jpg" data-color="violet" alt="sixth Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3626.jpg" data-color="violet" alt="sixth Image">
+                        <img class="d-block" src="images/_MG_3626.jpg" data-color="violet" alt="sixth Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/_MG_3592.jpg" data-color="violet" alt="sixth Image">
+                        <img class="d-block" src="images/_MG_3592.jpg" data-color="violet" alt="sixth Image">
                     </div>
                 </div>
                 <!-- Controls -->
