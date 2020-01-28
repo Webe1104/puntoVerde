@@ -203,7 +203,7 @@
         </div>
 
         <div id="section_4">
-            <div class="header_nav Megant">DISTRIBUCIÓN</div>
+            <div class="header_nav Megant">Distribución</div>
 
             <ul class="nav nav-tabs" role="tablist">
                 <li id="tipo1_nav" class="nav-item">
@@ -234,7 +234,7 @@
                                     <div class="col-lg-4 col-md-4 col-sm-12 col-12 plano_txt text_container">
                                         <div class="row justify-content-center">
                                             <p class="col-11">
-                                                PRIMER PISO   M2 : 52.00
+                                                PRIMER PISO   M2 : 51.26
                                             </p>
                                             <div id="t1_p1_cocina" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
                                                 <img class="icon" src="images/icons/cocina.svg">
@@ -268,7 +268,7 @@
                                     <div class="col-lg-4 col-md-4 col-sm-12 col-12 plano_txt menos_iconos text_container">
                                         <div class="row justify-content-center">
                                             <p class="col-11">
-                                                SEGUNDO PISO
+                                                SEGUNDO PISO M2 : 45.28
                                             </p>
                                             <div id="t1_p2_recamara" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
                                                 <img class="icon" src="images/icons/cama.svg">
@@ -297,7 +297,7 @@
                                     <div class="col-lg-4 col-md-4 col-sm-12 col-12 plano_txt menos_iconos text_container">
                                         <div class="row justify-content-center">
                                             <p class="col-11">
-                                                TERCER PISO
+                                                TERCER PISO M2 : 36.69
                                             </p>
                                             <div id="t1_p3_recamara" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
                                                 <img class="icon" src="images/icons/cama.svg">
@@ -345,7 +345,7 @@
                                     <div class="col-lg-4 col-md-4 col-sm-12 col-12 plano_txt text_container">
                                         <div class="row justify-content-center">
                                             <p class="col-11">
-                                                PRIMER PISO
+                                                PRIMER PISO M2 : 51.26
                                             </p>
                                             <div  id="t2_p1_cocina" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
                                                 <img class="icon" src="images/icons/cocina.svg">
@@ -366,10 +366,10 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-7 col-6 plano_img">
-                                        <img id="t2_p1_plano_cocina" class="primer_piso" src="images/planos/t2_p1_cocina.png">
-                                        <img id="t2_p1_plano_sala" class="primer_piso" src="images/planos/t2_p1_sala.png">
-                                        <img id="t2_p1_plano_banio" class="primer_piso" src="images/planos/t2_p1_banio.png">
-                                        <img id="t2_p1_plano_comedor" class="primer_piso" src="images/planos/t2_p1_comedor.png">
+                                        <img id="t2_p1_plano_cocina" class="primer_piso_2" src="images/planos/t2_p1_cocina.png">
+                                        <img id="t2_p1_plano_sala" class="primer_piso_2" src="images/planos/t2_p1_sala2.png">
+                                        <img id="t2_p1_plano_banio" class="primer_piso_2" src="images/planos/t2_p1_banio.png">
+                                        <img id="t2_p1_plano_comedor" class="primer_piso_2" src="images/planos/t2_p1_comedor.png">
                                     </div>
                                 </div>
                             </div>
@@ -379,7 +379,7 @@
                                     <div class="col-lg-4 col-md-4 col-sm-12 col-12 plano_txt menos_iconos text_container">
                                         <div class="row justify-content-center">
                                             <p class="col-11">
-                                                SEGUNDO PISO
+                                                SEGUNDO PISO : 45.28
                                             </p>
                                             <div id="t2_p2_recamara" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
                                                 <img class="icon" src="images/icons/cama.svg">
@@ -409,7 +409,7 @@
                                     <div class="col-lg-4 col-md-4 col-sm-12 col-12 plano_txt menos_iconos text_container">
                                         <div class="row justify-content-center">
                                             <p class="col-11">
-                                                TERCER PISO
+                                                TERCER PISO 26.14
                                             </p>
                                             <div id="t2_p3_terraza" class="col-lg-12 col-md-12 col-sm-2 col-2 icons_container">
                                                 <img class="icon" src="images/icons/terraza.svg">
@@ -472,9 +472,6 @@
                             </div>
                             <div class="carousel-item">
                                 <img class="d-block image6 col-3 img-fluid" src="images/_MG_3910.jpg ">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block image6 col-3 img-fluid" src="images/_MG_3909.jpg ">
                             </div>
                             <div class="carousel-item">
                                 <img class="d-block image6 col-3 img-fluid" src="images/_MG_3899.jpg ">
@@ -541,7 +538,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7 col-md-7 col-sm-12 col-12">
-                        <h3>Contacto</h3>
+                        <div class="title">Contacto</div>
                         <form>
                             <label id="name_label" for="name">Nombre</label>
                             <input type="text" name="name" id="name" placeholder="Escriba su nombre completo">
@@ -634,9 +631,6 @@
                         <img class="d-block" src="images/_MG_3910.jpg" data-color="violet" alt="fourth Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block" src="images/_MG_3909.jpg" data-color="violet" alt="fifth Image">
-                    </div>
-                    <div class="carousel-item">
                         <img class="d-block" src="images/_MG_3899.jpg" data-color="firebrick" alt="Second Image">
                     </div>
                     <div class="carousel-item">
@@ -726,7 +720,31 @@
                     </div>
                 </div>
             </div>
-            
+            <!-- <form method="POST" action="{{ '/contactoMail' }}">
+                @csrf
+
+                <div class="form-group row">
+                    <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
+
+                    <div class="col-md-6">
+                        <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+
+                        @error('email')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
+                    </div>
+                </div>
+
+                <div class="form-group row mb-0">
+                    <div class="col-md-6 offset-md-4">
+                        <button type="submit" class="btn btn-primary">
+                            {{ __('Send Password Reset Link') }}
+                        </button>
+                    </div>
+                </div>
+            </form> -->
         </div>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVPyg5gOhZtCErpZ4ZpgQAAeTeQ3-NNTY&callback=initMap"
         async defer></script>

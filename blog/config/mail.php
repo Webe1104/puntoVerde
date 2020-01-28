@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'puntoverdegrupo@gmail.com'),
+        'name' => env('MAIL_FROM_NAME', 'PuntoVerde'),
     ],
 
     /*
@@ -132,5 +132,11 @@ return [
     */
 
     'log_channel' => env('MAIL_LOG_CHANNEL'),
+
+    'ses' => [
+        'key' => 'MSG4TTUWJ,BLvg',
+        'secret' => 'lws3k3EIwpj34EiYASBhn4k2nsb21K65pshyTyfw',
+        'region' => 'us-east-1',  // e.g. us-east-1
+    ],
 
 ];

@@ -200,7 +200,7 @@ header .calendarContainer{
     font-size: 2vw;
     margin: 20px 0px;
     font-weight: 200;
-    min-height: 130px;
+    /*min-height: 130px;*/
 }
 
 #section_1 .phone{
@@ -352,7 +352,7 @@ header .calendarContainer{
 #section_4 .header_nav{
   text-align: center;
   padding: 40px 0px;
-  font-size: 6vw;
+  font-size: 5vw;
   letter-spacing: 1.7px;
   font-weight: 400;
 }
@@ -405,10 +405,6 @@ header .calendarContainer{
   font-weight: 200;
 }
 
-#section_4 .plano_img img{
-  max-width: 400px;
-}
-
 #section_4 .icon{
   width: 12vh;
   margin-bottom: 16px;
@@ -419,6 +415,9 @@ header .calendarContainer{
   margin: 45px 50px;
 }
 
+#section_4 .plano_img{
+  padding-left: 45px;
+}
 @media screen and (min-width: 530px){
   #tipo1_nav{
     text-align: left !important;
@@ -495,17 +494,17 @@ header .calendarContainer{
   }
   #section_4 .primer_piso{
     /*width: 40vw !important;*/
-    max-width: 400px;
+    /*max-width: 400px;*/
   }
   #section_4 .plano_img .primer_piso{
     width: 37vw;
   }
+  #section_4 .plano_img .primer_piso_2{
+    width: 47vw;
+  }
   #section_4 .plano_img img{
     width: 32vw;
     margin: 20px 0;
-  }
-  #section_4 .menos_iconos {
-    top: 45px;
   }
 }
 
@@ -530,6 +529,7 @@ header .calendarContainer{
   padding-left: 35px;
   letter-spacing: 1.2px;
   padding: 0 60px;
+  margin-bottom: 15px;
 }
 
 /*#section_5 #titulo::after{
@@ -639,6 +639,12 @@ img.d-block.col-3.img-fluid {
   padding: 30px 0px;
 }
 
+#contacto .title{
+  font-size: 5vw;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
 #name {
   width: 93%;
   float: left;
@@ -723,6 +729,13 @@ input{
   #contacto .icon{
     width: 5vw;
   }
+  #name_label, #message_label{
+    font-size: 1rem;
+  }
+
+  #mail_label, #tel_label{
+    font-size: 1rem;
+  }
 }
 
 /*MODAL CAROUSEL*/
@@ -741,7 +754,7 @@ input{
 
 /* The Modal (background) */
 .modal {
-  padding-top: 8vh;
+  padding-top: 15vh;
   display: none; 
   position: fixed;
   z-index: 1; 
@@ -833,7 +846,7 @@ input{
   cursor: pointer;
   position: absolute;
   top: 20px;
-  left: 70%;
+  right: 25%;
   content: 'X';
   z-index: 999;
 }
@@ -859,3 +872,17 @@ input{
   color: #FFF;
 }
 
+@media screen and (max-width: 960px) { 
+  #contacto_modal .close_contacto{
+    top: 20px;
+    right: 19%;
+  }
+}
+
+@media screen and (max-width: 520px) { 
+  #contacto_modal .close_contacto{
+    top: 0px;
+    right: 14%;
+    font-size: 32px;
+  }
+}
