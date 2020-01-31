@@ -7,20 +7,21 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-require __DIR__ .'/autoload.php';
-
 class ContactoMail extends Mailable
 {
     use Queueable, SerializesModels;
+
+    public $data;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($data)
     {
-        //
+        // $nombre = $data['nombre'];
+        $this->data = $data;
     }
 
     /**
@@ -28,9 +29,17 @@ class ContactoMail extends Mailable
      *
      * @return $this
      */
+    // public function build()
+    // {
+    //     return $this->from('puntoverdegrupo@gmail.com')
+    //                 ->view('emails.contacto');
+    // }
+
     public function build()
-    {
-        return $this->from('puntoverdegrupo@gmail.com')
-                    ->view('emails.contacto');
-    }
+        {
+            return $this->view('emails.contacto')
+                        ->with([
+                            'data' => $this->data,
+                        ]);
+        }
 }

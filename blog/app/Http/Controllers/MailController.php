@@ -20,13 +20,17 @@ use PHPMailer\PHPMailer\Exception;
 
 class MailController extends Controller{
 
-	public function send(Request $req){
-		$data = [
-		        'subject' => 'puntoverdegrupo@gmail.com',
-		        'message' => '$request->message',
-		    ];
-
+	public function send(){
+		$data = request()->validate([
+		        'mensaje' => 'required',
+		        'nombre' => 'required',
+		        'fecha' => 'required',
+		        'email' => 'required|email',
+		        'telefono' => 'required',
+		    ]);
 		Mail::to('puntoverdegrupo@gmail.com')->send(new ContactoMail($data));
+
+		return view('index');
 	}
 }
 

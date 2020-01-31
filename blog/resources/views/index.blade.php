@@ -702,49 +702,46 @@
                     <div id="title">
                         Agenda una visita
                     </div>
-                    <div id="form" class="row justify-content-center">
-                        <div class="col-6">
-                            <input type="text" placeholder="Nombre" name="Nombre">
-                            <input type="text" placeholder="Fecha" name="Fecha">
+                    <form method="POST" action="{{ '/contactoMail' }}">
+                        @csrf
+
+                        <div class="form-group">
+                            <div id="form" class="row justify-content-center">
+                                <div class="col-6">
+                                    <input type="text" required placeholder="Nombre" name="nombre" autofocus>
+                                    <input type="text" required placeholder="Fecha" name="fecha">
+                                </div>
+                                <div class="col-6">
+                                    <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" placeholder="Email"  >
+
+                                    @error('email')
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
+                                    <input type="number" required placeholder="Teléfono" name="telefono">
+                                </div>
+                                <div class="col-12">
+                                    <input id="mensaje" type="text" placeholder="Mensaje" name="mensaje">
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit">Enviar</button>
+                                </div>
+                            </div>
+
+
                         </div>
-                        <div class="col-6">
-                            <input type="text" placeholder="Email" name="Email">
-                            <input type="text" placeholder="Teléfono" name="Telefono">
-                        </div>
-                        <div class="col-12">
-                            <input id="mensaje" type="text" placeholder="Mensaje" name="mensaje">
-                        </div>
-                        <div class="col-12">
-                            <button type="button">Enviar</button>
-                        </div>
-                    </div>
+
+                       <!--  <div class="form-group">
+                            <div class="col-md-6 offset-md-4">
+                                <button type="submit" class="btn btn-primary">
+                                    {{ __('Send Password Reset Link') }}
+                                </button>
+                            </div>
+                        </div> -->
+                    </form>
                 </div>
             </div>
-            <!-- <form method="POST" action="{{ '/contactoMail' }}">
-                @csrf
-
-                <div class="form-group row">
-                    <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
-
-                    <div class="col-md-6">
-                        <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
-
-                        @error('email')
-                            <span class="invalid-feedback" role="alert">
-                                <strong>{{ $message }}</strong>
-                            </span>
-                        @enderror
-                    </div>
-                </div>
-
-                <div class="form-group row mb-0">
-                    <div class="col-md-6 offset-md-4">
-                        <button type="submit" class="btn btn-primary">
-                            {{ __('Send Password Reset Link') }}
-                        </button>
-                    </div>
-                </div>
-            </form> -->
         </div>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVPyg5gOhZtCErpZ4ZpgQAAeTeQ3-NNTY&callback=initMap"
         async defer></script>

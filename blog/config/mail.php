@@ -134,8 +134,8 @@ return [
     'log_channel' => env('MAIL_LOG_CHANNEL'),
 
     'ses' => [
-        'key' => 'MSG4TTUWJ,BLvg',
-        'secret' => 'lws3k3EIwpj34EiYASBhn4k2nsb21K65pshyTyfw',
+        'key' => 'AKIAZ6TDEIGMSVCZ4CO5',
+        'secret' => 'yCdCKtC3xw5g5do8MR/YBVDaEzZFqNvHg2YSZTyd',
         'region' => 'us-east-1',  // e.g. us-east-1
     ],
 
